@@ -18,12 +18,13 @@ We have two ways of receiving **access_token**:
 
 First of all go to [Instagram Developer Console](https://www.instagram.com/developer/) and create your app.
 
-After creating app go to: Manage Clients -> Manage -> Security.
+After creating app go to: **Manage Clients -> Manage -> Security.**
 
 *Some important notes:*
 1. **Disable implicit OAuth** - must be unchecked, otherwise we will not be able to use Implicit flow!
 
-2. **Valid redirect URIs** - To make thing easier I hardcoded endpoint that my module is using. Just add **instagram_auth** to URI in which you will be using my module. For example **http://localhost:3000/instagram_auth** is valid when you are using React. In production replace *localhost:3000* with your domain.
+2. **Valid redirect URIs** - To make thing easier I hardcoded endpoint that my module is using. Just add **instagram_auth** to URI in which you will be using my module.
+For example **http://localhost:3000/instagram_auth** is valid when you are using React. In production replace *localhost:3000* with your domain.
 
 *Final setup should look like this:*
 ![Demo](https://raw.githubusercontent.com/venits/instagram-web-oauth/master/instauth.png)
@@ -33,7 +34,7 @@ After creating app go to: Manage Clients -> Manage -> Security.
 
 Usage is very simple it requires just **3 lines of code** :)
 
-1. In you .html file in which Instagram auth flow will be called add this line of code in < head > tag. For better performance put it at the beginning ;)
+1. In your .html file in which Instagram auth flow will be called add this line of code in **< head>** tag. For better performance put it at the beginning ;)
 
 *In React this file will be **index.html** in your public folder.*
 ```html
@@ -58,7 +59,7 @@ After successful authorization in console you should notice this message:
 Instagram access_token: 707...46b4
 ```
 
-**And that's all :)**
+### **And that's all :)**
 
 
 You can get your **access_token** any time using this line of code:
@@ -68,5 +69,5 @@ var token = window.InstAuth.getAccessToken();
 
 ## Summary
 
-I hope that you will find this module useful and also If you have any problems or questions please let me know I will be more than happy to help you :)
+I hope that you will find this module useful and also if you have any problems or questions please let me know I will be more than happy to help you :)
 
