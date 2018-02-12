@@ -46,7 +46,7 @@ Usage is very simple it requires just **3 lines of code** :)
 
 2. Put this line everywhere you want but remember that  function **init()** must be called before sending any request to Instagram API.
 ```js
-InstAuth.init('your_client_id');
+window.InstAuth.init('your_client_id');
 ```
 
 3. Call **startAuthFlow()** for example when user clicks 'Log in to Instagram'
