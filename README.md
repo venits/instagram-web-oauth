@@ -1,6 +1,8 @@
 ﻿# Instagram Oauth2.0 for Web
 
 The easiest possible way I manage to create authentication flow with Instagram.
+
+You can also check [react-instagram-photo-picker](https://github.com/venits/react-instagram-photo-picker) which uses this module for authorization ;)
  
  ## Intro
  As you may know standard **Instagram API** is getting deprecated and **Instagram Graph API** is introduced but It is only for businesses right now. We still have time to **early 2020** for using basic stuff like getting photos from user Instagram profile.
