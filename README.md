@@ -17,9 +17,8 @@ After creating app go to: **Manage Clients -> Manage -> Security.**
 
 Just add **instagram_auth** to URI in which you will be using my module.
 
-*For example your redirect URI can look like this: `**http://localhost:3000/instagram_auth**`.*
+*For example your redirect URI can look like this: `http://localhost:3000/instagram_auth`.*
 
-*Final setup should look like this:*
 ![Demo](https://raw.githubusercontent.com/venits/instagram-web-oauth/master/instauth.png)
 
 
