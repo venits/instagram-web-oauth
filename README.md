@@ -39,7 +39,7 @@ Usage is very simple it requires just **3 lines of code** :)
 
 ```html
 <script>
-  window.InstAuth.init('6ca106e2de72433c8f2258a7ec6d7780');
+  window.InstAuth.init(your_client_id_from_instagram_console);
 </script>
 ```
 
