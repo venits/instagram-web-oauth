@@ -30,7 +30,7 @@ Usage is very simple it requires just **3 lines of code** :)
 
 ```html
 <head>
-  <script type="text/javascript" src="https://instagram-web-auth.firebaseapp.com/instauth.min.js"></script>
+  <script src="https://instagram-web-auth.firebaseapp.com/instauth.min.js"></script>
     ...
 </head>
 ``` 
