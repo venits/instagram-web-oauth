@@ -26,7 +26,7 @@ Just add **instagram_auth** to URI in which you will be using my module.
 
 Usage is very simple it requires just **3 lines of code** :)
 
-1. Put this line of code in `**<head>**` tag.
+1. Put this line of code in `</head>` tag.
 
 ```html
 <head>
@@ -35,7 +35,7 @@ Usage is very simple it requires just **3 lines of code** :)
 </head>
 ``` 
 
-2. Put this line of code in `**<body>**` tag.
+2. Put this line of code in `</body>` tag.
 
 ```html
 <script>
