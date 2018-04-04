@@ -13,11 +13,9 @@ After creating app go to: **Manage Clients -> Manage -> Security.**
 *Some important notes:*
 1. **Disable implicit OAuth** - must be unchecked, otherwise we will not be able to use Implicit flow!
 
-2. **Valid redirect URIs** - To make thing easier I hardcoded endpoint that my module is using.
+2. **Valid redirect URIs** - add URI from where you are calling instagram authorization.
 
-Just add **instagram_auth** to URI in which you will be using my module.
-
-*For example your redirect URI can look like this: `http://localhost:3000/instagram_auth`.*
+*For example your redirect URI can look like this: `http://localhost:3000/`.*
 
 ![Demo](https://raw.githubusercontent.com/venits/instagram-web-oauth/master/instauth.png)
 
